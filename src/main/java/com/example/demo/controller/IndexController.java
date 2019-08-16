@@ -16,6 +16,7 @@ public class IndexController {
     public String index(Model model){
         model.addAttribute("name","nihao");
         return "show1";
+//        1111
     }
 
 }
