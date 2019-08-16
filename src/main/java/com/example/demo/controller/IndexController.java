@@ -15,7 +15,7 @@ public class IndexController {
     @RequestMapping("/index")
     public String index(Model model){
         model.addAttribute("name","nihao");
-        return  "show1";
+        return "show1";
     }
 
 }
